@@ -35,7 +35,7 @@ const getCalendarByDistrict = (dateParam) => {
 
 async function checkStatus() {
   count++
-  console.log('---------------Check availabilty status# ' + count + '----------------------')
+  console.log('---------------Check availabilty status# ' + count + ' at '+ new Date().toLocaleTimeString()+' ----------------------')
   const dateParam = format(addDays(new Date(), 1), 'dd-MM-yyyy')
   const dateParam2 = format(addDays(new Date(), 8), 'dd-MM-yyyy')
 
